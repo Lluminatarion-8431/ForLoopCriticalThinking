@@ -12,7 +12,7 @@ namespace ForLoopCriticalThinking
             Console.WriteLine("Please enter 42");
             userInput = Console.ReadLine();
             
-            //bool cartComplete = false;
+            //bool  = false;
             //bool isValid = false;
             while (userInput != 42)
             {
@@ -22,31 +22,31 @@ namespace ForLoopCriticalThinking
                     //int userDecision = Console.ReadLine();
                     //switch (userDecision)
                     //{
-                    //    case "toilet paper":
-                    //        BuyToiletPaper();
+                    //    case "":
+                    //        ();
                     //        isValid = true;
                     //        break;
-                    //    case "sanitizer":
-                    //        BuySanitizer();
+                    //    case "":
+                    //        ();
                     //        isValid = true;
                     //        break;
-                    //    case "face mask":
-                    //        BuyFaceMask();
+                    //    case "":
+                    //        ();
                     //        isValid = true;
                     //        break;
                     //    default:
-                    //        Console.WriteLine("That isn't really essential is it?");
+                    //        Console.WriteLine("");
                     //        break;
                     //}
                     //} while (isValid == false);
-                    //Console.WriteLine("Do you want to purchase more?");
+                    //Console.WriteLine("");
                     //string input = Console.ReadLine();
                     //if (input == "no")
                     //{
-                    //    cartComplete = true;
+                    //     = true;
                 }
             }
-            //DisplayCart();
+            //Display();
             Console.ReadLine();
 
         }

@@ -77,9 +77,7 @@ namespace ForLoopCriticalThinking
         }
         public void RunCalculations()
         {
-            //AddTwoNumbers(5, 7);
-            //AddTwoNumbers((8 + 40), (200 + 50));
-            DivideTwoNumbers();
+            
             Console.WriteLine("Enter first number to add:");
             int value1 = int.Parse(Console.ReadLine());
 
@@ -88,8 +86,6 @@ namespace ForLoopCriticalThinking
 
             int output = AddTwoNumbers(value1, value2);
             Console.WriteLine("The result is: " + output);
-
-
         }
     }
 }
